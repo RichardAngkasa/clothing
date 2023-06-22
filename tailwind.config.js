@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+        fontFamily: {
+          revxRegular: "revxRegular",
+          revxSemiBold: "revxSemiBold",
+          japan: "japan",
+          cosmas: "cosmas",
+        },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
