@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <main className="relative w-full">
       {open.condition ? (
-        <div className="w-screen h-screen flex item-center justify-center z-50 fixed">
+        <div className=" gird grid-cols-2 sm:grid-cols-3 w-screen h-screen flex item-center justify-center z-50 fixed">
           <div className="w-1/3 h-fit border bg-black/80 p-4">
             <div className="flex justify-end">
               <img
@@ -92,7 +92,7 @@ export default function Home() {
           <div>Catalog</div>
           <div>Contact</div>
           <div className="my-20">
-            <img src="/assets/logo.gif" alt="" className="w-[30rem] pb-2" />
+            <img src="/assets/match.gif" alt="" className="w-[30rem] pb-2" />
           </div>
           <div>Section</div>
           <div>About Us</div>
